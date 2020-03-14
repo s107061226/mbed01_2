@@ -5,7 +5,7 @@ int table[10] = {0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x07, 0x7F, 0x6F};
 
 int main(void)
 {
-    while(1){
+    while(true){
         for (int i = 0; i < 10; i++) {
             display = table[i];
             wait(1);
